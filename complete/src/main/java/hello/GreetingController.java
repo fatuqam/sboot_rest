@@ -17,7 +17,7 @@ public class GreetingController {
     private BooksService booksService;
 
     @RequestMapping("/greeting")
-    public Greeting greeting(@RequestParam(value="name", defaultValue="Le Monde") String name) {
+    public Greeting greeting(@RequestParam(value="name", defaultValue="Le Monde1") String name) {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
