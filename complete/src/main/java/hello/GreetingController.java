@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-    private static final String template = "kkkkkkkkk, %s!";
+    private static final String template = "kkvcvcvcdfdfkk, %s!";
     private final AtomicLong counter = new AtomicLong();
     @Autowired
     private BooksService booksService;
