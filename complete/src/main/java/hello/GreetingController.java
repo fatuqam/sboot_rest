@@ -1,9 +1,6 @@
 package hello;
 
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,19 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-    private static final String template = "kkvcvcvcdfdfkk, %s!";
+    private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
-    @Autowired
-    private BooksService booksService;
 
     @RequestMapping("/greeting")
-    public Greeting greeting(@RequestParam(value="name", defaultValue="213") String name) {
+    public Greeting greeting(@RequestParam(value="name", defaultValue="World111") String name) {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
-    }
-
-    @RequestMapping("/hello")
-    public List<Contact> hello(){
-        return booksService.getAll();
     }
 }
