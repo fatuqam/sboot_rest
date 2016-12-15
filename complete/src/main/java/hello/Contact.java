@@ -5,12 +5,12 @@ import javax.persistence.*;
 /**
  * Created by hadib_000 on 2016-12-12.
  */
-@Entity
-@Table(name="contacts")
+//@Entity
+//@Table(name="contacts")
 public class Contact {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
     private String email;
