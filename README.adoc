@@ -1,6 +1,4 @@
 ---
-
-[![Build Status](http://localhost:8080/job/Rest_Job/badge/icon)](http://localhost:8080/job/Rest_Job/)
 tags: [rest]
 projects: [spring-framework]
 experimental: Try the code inside your browser with -> http://beta.codenvy.com/f?id=9fq0busbm3tz7i8c
@@ -16,6 +14,8 @@ experimental: Try the code inside your browser with -> http://beta.codenvy.com/f
 This guide walks you through the process of creating a "hello world" link:/understanding/REST[RESTful web service] with Spring.
 
 == What you'll build
+
+[![Build Status](http://localhost:8080/job/Rest_Job/badge/icon)](http://localhost:8080/job/Rest_Job/)
 
 You'll build a service that will accept HTTP GET requests at:
 
