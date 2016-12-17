@@ -1,3 +1,4 @@
+[![Build Status](http://localhost:8080/buildStatus/icon?job=Rest_Job)](http://localhost:8080/job/Rest_Job/)
 ---
 tags: [rest]
 projects: [spring-framework]
