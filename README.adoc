@@ -1,3 +1,4 @@
+[![Build Status](http://localhost:8080/buildStatus/icon?job=Rest_Job)](http://localhost:8080/job/Rest_Job/)
 ---
 tags: [rest]
 projects: [spring-framework]
@@ -31,9 +32,6 @@ and respond with a link:/understanding/JSON[JSON] representation of a greeting:
 ----
 
 You can customize the greeting with an optional `name` parameter in the query string:
-
-[![Master Build Status](https://ewe.builds.sb.karmalab.net/buildStatus/icon?job=babelprime-service-master)](https://ewe.builds.sb.karmalab.net/job/babelprime-service-master/)
-[![All Build Status](https://ewe.builds.sb.karmalab.net/buildStatus/icon?job=babelprime-service-all)](https://ewe.builds.sb.karmalab.net/job/babelprime-service-all/)
 
 ----
 http://localhost:8080/greeting?name=User
